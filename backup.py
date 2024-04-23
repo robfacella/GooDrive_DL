@@ -8,4 +8,5 @@ os.chdir("..")
 childName = os.getcwd()
 childName = childName.split("/")[-1]
 
-print ( childName )
+print ( "creating a subfolder for backup: " + childName )
+os.makedirs(childName, exist_ok=True)
