@@ -31,3 +31,26 @@ Give it the #1 read write access option.
 
 Keep just about everything else at default values.
 
+It'll popup with a window in your default browser to choose a Google Account to give rclone access to.
+Choose the account you wish, confirm that you are allowing access and return to rclone
+
+once complete, q + Enter to close the configuration prompt.
+
+edit remoteName.txt to match the name of the Remote you've configured.
+
+# For Multiple Drives
+No direct support yet.
+
+Reccomended option:
+1) Clone an Instance of this Repository per Email you're trying to backup.
+
+Not Reccomended:
+2) Rename the Backup Location to juggle multiple accounts ~For Exanple:
+if parentDir is 'Backup'
+rename internal 'Backup'Dir to the email it backed up, 
+allow next email to be created as new 'backup',
+repeat and hope you don't ever forget to change everything needed.
+
+(1 is a better idea for numerous reasons, 
+but hey, we get it,
+this Repo is super saturated at MB) 
